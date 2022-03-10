@@ -5,8 +5,7 @@ para1.innerHTML= "Finally working on JS";
 para2.innerHTML = "Second paragraph";
 
 para1.onclick = (event) => {
-
- para1.style.color = "blue"; 
+  para1.style.color = "blue";
 }
 
 
@@ -15,4 +14,6 @@ para2.onclick = (event)=>{
     para3.id = "thirdp";
     para3.innerHTML="This is our new paragraph";
     document.body.appendChild(para3);
+    para2.style.color = "red";
+
 }
